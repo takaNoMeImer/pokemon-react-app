@@ -7,7 +7,7 @@ import TableData from './components/Table';
 
 function App() {
   const [splashVisible, setSplashVisible] = useState<boolean>(true);
-  const { data, loading } = useFetch("?limit=10");
+  const { data } = useFetch("?limit=10");
 
   useEffect(() => {
     console.log(data)

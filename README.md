@@ -10,3 +10,5 @@ Se debe tener una version de node `^18` para poder ejecutar sin problemas el pro
 ```
 npm run dev
 ```
+
+[Ver en produccion](https://p-imer-pokemon-react-app.netlify.app/)
